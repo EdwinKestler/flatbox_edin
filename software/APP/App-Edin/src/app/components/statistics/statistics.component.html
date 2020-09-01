@@ -1,0 +1,54 @@
+<div class="container-fluid" style="background: #282936;">
+    <div class="row ml-5">
+        <div class="col">
+            <div class="row">
+                <h6>Rendimiento de todos los alumnos</h6>
+            </div>
+            <div class="row">
+                <ngx-charts-pie-chart [view]="viewPie" [scheme]="colorScheme" [results]="single" [gradient]="gradientPie"
+                    [legend]="showLegendPie" [legendPosition]="legendPosition" [labels]="showLabels"
+                    [doughnut]="isDoughnut" (select)="onSelect($event)" (activate)="onActivate($event)"
+                    (deactivate)="onDeactivate($event)" style="fill: white;">
+                </ngx-charts-pie-chart>
+            </div>
+        </div>
+        <div class="col">
+            <div class="row">
+                <h6>Cantidad de respuestas correctas por operación</h6>
+            </div>
+            <div class="row">
+                <ngx-charts-bar-vertical [view]="viewV" [scheme]="colorScheme" [results]="single2" [gradient]="gradient"
+                    [xAxis]="showXAxis" [yAxis]="showYAxis" [legend]="showLegend" [showXAxisLabel]="showXAxisLabel"
+                    [showYAxisLabel]="showYAxisLabel" [xAxisLabel]="xAxisLabel" [yAxisLabel]="yAxisLabel"
+                    (select)="onSelect($event)" style="fill: white;">
+                </ngx-charts-bar-vertical>
+            </div>
+        </div>
+        <div class="col">
+            <div class="row">
+                <h6>Rendimiento de alumnos</h6>
+            </div>
+            <div class="row">
+                <ngx-charts-bar-horizontal [view]="viewH" [scheme]="colorScheme" [results]="single3" [gradient]="gradient"
+                    [xAxis]="showXAxis" [yAxis]="showYAxis" [legend]="showLegend" [showXAxisLabel]="showXAxisLabel"
+                    [showYAxisLabel]="showYAxisLabel" [xAxisLabel]="xAxisLabel" [yAxisLabel]="yAxisLabel"
+                    (select)="onSelect($event)" (activate)="onActivate($event)" (deactivate)="onDeactivate($event)"
+                    style="fill: white;">
+                </ngx-charts-bar-horizontal>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="row ml-5">
+        <div class="col">
+            <div class="row">
+                <h6 style="margin: 0px auto;">Rendimiento por Habilidades</h6>
+            </div>
+            <div class="row">
+                <ngx-charts-pie-grid [view]="viewGrid" [scheme]="colorScheme" [results]="single4" (select)="onSelect($event)"
+                    style="fill: white;">
+                </ngx-charts-pie-grid>
+            </div>
+        </div>
+    </div>
+</div>

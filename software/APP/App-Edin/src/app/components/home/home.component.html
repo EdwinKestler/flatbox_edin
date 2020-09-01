@@ -1,0 +1,86 @@
+<button type="button" class="btn btn-info boton" (click)="open(modalCreate)">
+  <span class="fas fa-plus-circle"></span>
+  Agregar Operacion
+</button>
+
+<!-- modal Agregar-->
+<ng-template #modalCreate let-c="close" let-d="dismiss">
+  <div class="modal-header ">
+    <h4 class="modal-title">Agregar Operacion</h4>
+    <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <label>Numero 1</label>
+    <input [(ngModel)]='number1' type="text" class="form-control" placeholder="Numero 1" required>
+    <br>
+    <label>Signo</label>
+    <select class="custom-select" [(ngModel)]='operation'>
+      <option [ngValue]="undefined" hidden>Seleccione una operación</option>
+      <option *ngFor='let item of operations' value="{{item.operation}}">{{ item.operation }}</option>
+    </select>
+    <br>
+    <br>
+    <label>Numero 2</label>
+    <input [(ngModel)]='number2' type="text" class="form-control" placeholder="Numero 2" required>
+    <br>
+    <label>Acción</label>
+    <select class="custom-select" [(ngModel)]='option'>
+      <option [ngValue]="undefined" hidden>Seleccione una opción</option>
+      <option *ngFor='let item of options' value="{{item.option}}" selected>{{ item.option }}</option>
+    </select>
+    <br>
+    <br>
+    <label>Tipo Pregunta</label>
+    <select class="custom-select" [(ngModel)]='type'>
+      <option [ngValue]="undefined" hidden>Seleccione tipo de pregunta</option>
+      <option *ngFor='let item of types' value="{{item.type}}" selected>{{ item.type }}</option>
+    </select>
+    <br>
+    <p *ngIf="type == 'Especifico'">
+      <br>
+      <label>Id Guantes</label>
+      <select class="custom-select" [(ngModel)]='gloveCode'>
+        <option *ngFor='let item of Users' value="{{item.gloveCode}}" selected>{{ item.gloveCode }}</option>
+      </select>
+    </p>
+    <br>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-info" (click)="c('Close click'); createOperation();">Realizar</button>
+    <button type="button" class="btn btn-danger" (click)="c('Close click')">Cerrar</button>
+  </div>
+</ng-template>
+
+<br>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">Id Operacion</th>
+      <th scope="col">Id Guantes</th>
+      <th scope="col">Acción</th>
+      <th scope="col">Numero 1</th>
+      <th scope="col">Operación</th>
+      <th scope="col">Numero 2</th>
+      <th scope="col">Opciones</th>
+    </tr>
+  </thead>
+  <tbody *ngIf="Operations">
+    <tr *ngFor="let item of Operations">
+      <td>{{item.idOperation}}</td>
+      <td *ngIf="item.topic == 'all'">Todos</td>
+      <td *ngIf="item.topic != 'all'">{{item.gloveCode}}</td>
+      <td>{{item.ACTION}}</td>
+      <td>{{item.number1}}</td>
+      <td>{{item.operation}}</td>
+      <td>{{item.number2}}</td>
+      <td>
+        <button class="btn btn-primary" (click)="goToDetails(item)">
+          <span class="fas fa-list"></span>
+          Detalles
+        </button>
+      </td>
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,40 @@
+body{
+    background-color: #282936;
+}
+
+.boton{
+    margin-top: 1%;
+    margin-left: 1%;
+    display: block;
+}
+
+.card{
+    display: inline-block;
+    margin-left: 1%;
+    margin-top: 2%;
+}
+
+.imagen{
+    width: 286px;
+    height: 250px;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.modal-title{
+    text-align: center;
+}
+
+.delete{
+    margin-left: 32% !important;
+}   
+
+th{
+    color: white;
+}
+
+td{
+    color: white;
+}

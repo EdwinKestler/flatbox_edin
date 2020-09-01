@@ -1,0 +1,25 @@
+<div class="container">
+  <div *ngFor="let item of operation">
+    <h4>Operacion: {{item.number1}} {{item.operation}} {{item.number2}} = {{item.result}}</h4>
+  </div>
+  <h4 class="responses-title">RESPUESTAS</h4>
+  <table class="table table-hover">
+      <thead>
+        <tr>
+          <th>Id Guantes</th>
+          <th>Respuesta</th>
+          <th>Estado</th>
+        </tr>
+      </thead>
+      <tbody *ngIf="responses">
+        <tr *ngFor="let item of responses">
+          <td>{{item.gloveCode}}</td>
+          <td>{{item.answer}}</td>
+          <td *ngIf='item.state'><i class="fas fa-check" style="color: rgb(6, 250, 6);font-size: 20px;"></i></td>
+          <td *ngIf='!item.state'><i class="fas fa-times" style="color: rgb(250, 34, 6);font-size: 20px;"></i></td>
+        </tr>
+      </tbody>
+  </table>
+</div>
+
+

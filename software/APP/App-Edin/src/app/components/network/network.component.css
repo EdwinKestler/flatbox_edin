@@ -1,0 +1,16 @@
+body{
+    background-color: #282936;
+}
+
+th{
+    color: white;
+}
+
+td{
+    color: white;
+}
+
+.disconnect{
+    float: right;
+    margin-bottom: 20px;
+}

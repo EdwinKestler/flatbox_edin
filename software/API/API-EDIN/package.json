@@ -1,0 +1,22 @@
+{
+  "name": "api-edin",
+  "version": "1.0.0",
+  "description": "API FOR EDIN",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Estuardo Sabán",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.1.0",
+    "node-wifi": "^2.0.13",
+    "nodemon": "^2.0.2"
+  }
+}
