@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAX6817EUT+T
+D Supervisory Circuits Dual Switch Debouncer
+K
+F http://datasheets.maximintegrated.com/en/ds/MAX6816-MAX6818.pdf
+$ENDCMP
+#
+#End Doc Library

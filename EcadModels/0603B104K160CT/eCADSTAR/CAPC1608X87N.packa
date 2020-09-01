@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "0603B104K160CT"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-06-29-10:58:06)
+    (mountForm default
+        (footprintRef "CAPC1608X87N")
+        (spec "System")
+    )
+)

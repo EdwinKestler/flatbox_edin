@@ -1,0 +1,155 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "DRV2603RUNR"
+   (description "Haptic Driver with Auto Resonance Tracking for LRA and Optimized Drive for ERM")
+   (family "ANA")
+   (package "QFN50P200X200X80-10N-D")
+   (attribute "Datasheet Link" "http://www.ti.com/lit/gpn/drv2603")
+   (attribute "Geometry.Height" "0.8mm")
+   (attribute "Mouser Part Number" "595-DRV2603RUNR")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/DRV2603RUNR?qs=l6ZoeTYLMwNhoGl8Q31%2FaA%3D%3D")
+   (attribute "Manufacturer_Name" "Texas Instruments")
+   (attribute "Manufacturer_Part_Number" "DRV2603RUNR")
+   (gate
+    (symbol "DRV2603RUNR")
+    (pin "EN" 1 IP)
+    (pin "PWM" 2 IP)
+    (pin "LRA/$ERM$" 3 IP)
+    (pin "NC" 4 NC)
+    (pin "GND_1" 5 PP)
+    (pin "OUT+" 9 OP)
+    (pin "GND_2" 8 PP)
+    (pin "VDD" 7 PP)
+    (pin "OUT-" 6 OP)
+    (pin "GND_3" 10 PP)
+   )
+  )
+  (symbol "DRV2603RUNR"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 500) (pt 1200 500) (pt 1200 -800) (pt 200 -800) (pt 200 500) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 700 -1000) (rot 90) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 700 700) (rot 90) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "QFN50P200X200X80-10N-D"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -1.625 1.625)
+      (pt 1.625 1.625)
+      (pt 1.625 -1.625)
+      (pt -1.625 -1.625)
+      (pt -1.625 1.625))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1 1)
+      (pt 1 1)
+      (pt 1 -1)
+      (pt -1 -1)
+      (pt -1 1))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -1 0.5)
+      (pt -0.5 1))))
+   (layer TSLK
+    (graphic
+     (stroke 0.25)
+     (circle
+      (pt -1.25 1.5) (pt -1.5 1.5)
+     )
+    )
+   )
+   (leg 1 (pt -0.9 0.75) (padstack 0))
+   (leg 2 (pt -0.9 0.25) (padstack 0))
+   (leg 3 (pt -0.9 -0.25) (padstack 0))
+   (leg 4 (pt -0.9 -0.75) (padstack 0))
+   (leg 5 (pt 0 -0.9) (padstack 1))
+   (leg 6 (pt 0.9 -0.75) (padstack 2))
+   (leg 7 (pt 0.9 -0.25) (padstack 2))
+   (leg 8 (pt 0.9 0.25) (padstack 2))
+   (leg 9 (pt 0.9 0.75) (padstack 2))
+   (leg 10 (pt 0 0.9) (padstack 3))
+   (padstack 0
+    (pad (layer TCOP) (path (pt -0.475 0.15) (arc (pt 0.325 0.15) (pt 0.175 -0.15) (pt 0.475 0.15) (start -180) (sweep 90)) (pt 0.325 -0.15) (pt -0.475 -0.15) (pt -0.475 0.15)))
+   )
+   (padstack 1
+    (pad (layer TCOP) (path (pt -0.15 -0.475) (arc (pt -0.15 0.325) (pt -0.15 0.175) (pt 0.15 0.475) (start -180) (sweep 180)) (pt 0.15 0.325) (pt 0.15 -0.475) (pt -0.15 -0.475)))
+   )
+   (padstack 2
+    (pad (layer TCOP) (path (pt 0.475 -0.15) (arc (pt -0.325 -0.15) (pt -0.475 -0.15) (pt -0.175 0.15) (start -180) (sweep 270)) (pt -0.325 0.15) (pt 0.475 0.15) (pt 0.475 -0.15)))
+   )
+   (padstack 3
+    (pad (layer TCOP) (path (pt 0.15 0.475) (arc (pt 0.15 -0.325) (pt -0.15 -0.475) (pt 0.15 -0.175) (start -180) (sweep 0)) (pt -0.15 -0.325) (pt -0.15 0.475) (pt 0.15 0.475)))
+   )
+   (model "DRV2603RUNR.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

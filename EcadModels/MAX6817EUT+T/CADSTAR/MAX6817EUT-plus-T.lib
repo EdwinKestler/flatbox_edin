@@ -1,0 +1,16 @@
+.MAX6817EUT-plus-T :1 ;Supervisory Circuits Dual Switch Debouncer
+SOT95P280X145-6N
+*STM IC
+*NGS
+*PLB 1="IN1" 2="GND" 3="IN2" 4="OUT2" 5="VCC" 6="OUT1"
+*MXP 6
+*DFN MAX6817EUT-plus-T
+~!Mouser Part Number (700-MAX6817EUTT)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX6817EUT%2bT?qs=1THa7WoU59HkU%2FfQtsyW%252BA%3D%3D)
+~!Manufacturer_Name (Maxim Integrated)
+~!Manufacturer_Part_Number (MAX6817EUT+T)
+~!Link Datasheet (http://datasheets.maximintegrated.com/en/ds/MAX6816-MAX6818.pdf)
+~!Height (1.45mm)
+~!3D_Model (MAX6817EUT+T)
+MAX6817EUT-plus-T
+1.1!U 2.1!U 3.1!U 6.1!U 5.1!U 4.1!U 

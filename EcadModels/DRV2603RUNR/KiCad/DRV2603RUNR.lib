@@ -1,0 +1,31 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model DRV2603RUNR
+#/650384/307895/2.47/10/4/Integrated Circuit
+DEF DRV2603RUNR IC 0 30 Y Y 1 F N
+F0 "IC" 1250 700 50 H V L CNN
+F1 "DRV2603RUNR" 1250 600 50 H V L CNN
+F2 "QFN50P200X200X80-10N-D" 1250 500 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/drv2603" 1250 400 50 H I L CNN
+F4 "Haptic Driver with Auto Resonance Tracking for LRA and Optimized Drive for ERM" 1250 300 50 H I L CNN "Description"
+F5 "0.8" 1250 200 50 H I L CNN "Height"
+F6 "595-DRV2603RUNR" 1250 100 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/DRV2603RUNR?qs=l6ZoeTYLMwNhoGl8Q31%2FaA%3D%3D" 1250 0 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 1250 -100 50 H I L CNN "Manufacturer_Name"
+F9 "DRV2603RUNR" 1250 -200 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X EN 1 0 0 200 R 50 50 0 0 I
+X PWM 2 0 -100 200 R 50 50 0 0 I
+X LRA/~ERM 3 0 -200 200 R 50 50 0 0 I
+X NC 4 0 -300 200 R 50 50 0 0 N
+X GND_1 5 700 -1000 200 U 50 50 0 0 W
+X OUT+ 9 1400 0 200 L 50 50 0 0 O
+X GND_2 8 1400 -100 200 L 50 50 0 0 W
+X VDD 7 1400 -200 200 L 50 50 0 0 W
+X OUT- 6 1400 -300 200 L 50 50 0 0 O
+X GND_3 10 700 700 200 D 50 50 0 0 W
+P 5 0 1 6 200 500 1200 500 1200 -800 200 -800 200 500 N
+ENDDRAW
+ENDDEF
+#
+#End Library

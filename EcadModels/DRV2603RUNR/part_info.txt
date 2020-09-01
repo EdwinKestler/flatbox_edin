@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=DRV2603RUNR
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat No-Lead
+PinCount=10
+Version=2.2
+Released=2018-01-01 04:37:18
+Downloaded=2020-09-01 01:18:08
+3D=Y

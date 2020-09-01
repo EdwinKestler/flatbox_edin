@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MAX6817EUT_T'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Maxim Integrated", "MAX6817EUT+T" (!) = "", "SOT95P280X145-6N", "SOT23 (6-Pin)", "700-MAX6817EUTT", "https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX6817EUT%2bT?qs=1THa7WoU59HkU%2FfQtsyW%252BA%3D%3D", "Supervisory Circuits Dual Switch Debouncer", "http://datasheets.maximintegrated.com/en/ds/MAX6816-MAX6818.pdf", "1.45 mm"
+END_PART
+
+END.

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'DRV2603RUNR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "DRV2603RUNR" (!) = "", "QFN50P200X200X80-10N-D", "Quad Flat No-Lead", "595-DRV2603RUNR", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/DRV2603RUNR?qs=l6ZoeTYLMwNhoGl8Q31%2FaA%3D%3D", "Haptic Driver with Auto Resonance Tracking for LRA and Optimized Drive for ERM", "http://www.ti.com/lit/gpn/drv2603", "0.8 mm"
+END_PART
+
+END.

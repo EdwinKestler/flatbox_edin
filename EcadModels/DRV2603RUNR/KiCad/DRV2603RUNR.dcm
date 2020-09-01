@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DRV2603RUNR
+D Haptic Driver with Auto Resonance Tracking for LRA and Optimized Drive for ERM
+K
+F http://www.ti.com/lit/gpn/drv2603
+$ENDCMP
+#
+#End Doc Library

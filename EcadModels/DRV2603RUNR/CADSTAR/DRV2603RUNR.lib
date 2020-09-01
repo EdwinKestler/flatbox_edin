@@ -1,0 +1,16 @@
+.DRV2603RUNR :1 ;Haptic Driver with Auto Resonance Tracking for LRA and Optimized Drive for ERM
+QFN50P200X200X80-10N-D
+*STM IC
+*NGS
+*PLB 1="EN" 2="PWM" 3="LRA/'ERM'" 4="NC" 5="GND_1" 6="OUT-" 7="VDD" 8="GND_2" 9="OUT+" 10="GND_3"
+*MXP 10
+*DFN DRV2603RUNR
+~!Mouser Part Number (595-DRV2603RUNR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/DRV2603RUNR?qs=l6ZoeTYLMwNhoGl8Q31%2FaA%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (DRV2603RUNR)
+~!Link Datasheet (http://www.ti.com/lit/gpn/drv2603)
+~!Height (0.8mm)
+~!3D_Model (DRV2603RUNR)
+DRV2603RUNR
+1.1!I 2.1!I 3.1!I 4.1!U 5.1!G 9.1!Y 8.1!G 7.1!P 6.1!Y 10.1!G 

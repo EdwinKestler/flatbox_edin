@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '0603B104K160CT'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Walsin Technology Corporation", "0603B104K160CT" (!) = "", "CAPC1608X87N", "Capacitor Chip Non-polarised", "791-0603B104K160CT", "https://www.mouser.co.uk/ProductDetail/Walsin/0603B104K160CT?qs=fIkAfuXiAQJseRIPMZypiA%3D%3D", "WALSIN - 0603B104K160CT - CAP, 0.1F, 16V, 10%, X7R, 0603", "", "0.87 mm"
+END_PART
+
+END.

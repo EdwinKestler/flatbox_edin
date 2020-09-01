@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_978773"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2017-11-06-20:18:39)
+    (utime 2018-06-07-06:31:42)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "06031C104KAT2A")
+)
+
+
+(pinAssign "ECS_978773"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2017-11-06-20:18:39)
+    (utime 2018-06-07-06:31:42)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_978773")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "06031C104KAT2A")
+)
+
+
+(part "06031C104KAT2A"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2017-11-06-20:18:39)
+    (utime 2018-06-07-06:31:42)
+    (packageRef "06031C104KAT2A")
+    (pinAssignRef "ECS_978773")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "C")
+    (property "description" "AVX - 06031C104KAT2A - CAP, MLCC, X7R, 0.1UF, 100V, 0603")
+    (property "Mouser_Part_Number" "581-06031C104KAT2A")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/AVX/06031C104KAT2A?qs=oF%2FSscNnLpBUv12UcNAw2A%3D%3D")
+    (property "Manufacturer_Name" "AVX")
+    (property "Manufacturer_Part_Number" "06031C104KAT2A")
+    (property "Datasheet_Link" "https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf")
+    (property "compAreaTopHeight" 0.9)
+)
+
+

@@ -1,0 +1,9 @@
+Manufacturer=AVX
+PartNumber=06031C104KAT2A
+PartCategory=Capacitor
+PackageCategory=Capacitor Chip Non-polarised
+PinCount=2
+Version=1.2
+Released=2017-11-06 20:18:39
+Downloaded=2020-09-01 01:20:10
+3D=Y

@@ -1,0 +1,9 @@
+Manufacturer=Maxim Integrated
+PartNumber=MAX6817EUT+T
+PartCategory=Integrated Circuit
+PackageCategory=SOT23 (6-Pin)
+PinCount=6
+Version=3.1
+Released=2015-05-26 02:29:35
+Downloaded=2020-09-01 01:28:51
+3D=Y
