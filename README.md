@@ -14,6 +14,8 @@ Main Idea: so a teacher can remotely teach math  to many vision imparied student
 Techers interface:
 [![Watch the video](https://i9.ytimg.com/vi/AhM5wchl2cA/mq3.jpg?sqp=CMCttfoF&rs=AOn4CLAVmG3gh53WLTYhV9mV7UM_OmM6WA)](https://youtu.be/AhM5wchl2cA)
 Basic Hardware interface:
+![alt text](software/API/CLOUD-SERVERLESS-DIAGRAM.png)
+
 
 Licencing:
 
