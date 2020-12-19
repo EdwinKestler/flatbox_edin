@@ -1,0 +1,50 @@
+Partlist
+
+Exported from Esp32_Shield.brd at 20/01/2020 19:34
+
+EAGLE Version 9.5.0 Copyright (c) 1988-2019 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value                    Package     Library                 Position (mil)        Orientation
+
+BOTONES  BTN 10 PIN               61301021821 Wurth_Connectors_WR-PHD (160 860)             R90
+C1_MÑQ   0.1uF                    C0805       resistor                (-950 910)            R90
+C2_MDO   0.1uF                    C0805       resistor                (-770 1280)           R180
+C3_ANL   0.1uF                    C0805       resistor                (-60 1650)            R180
+C4_PLG   0.1uF                    C0805       resistor                (-560 920)            R90
+C5_IND   0.1uF                    C0805       resistor                (-960 1220)           R270
+D1_B     BLUE                     LED-1206    SparkFun-LED            (-1090 1110)          R180
+D2_ANL   1N4148WS                 SOD-323     Diodes                  (-130 1430)           R270
+D2_G     GREEN                    LED-1206    SparkFun-LED            (-1090 1030)          R180
+D2_MÑQ   1N4148WS                 SOD-323     Diodes                  (-760 980)            R0
+D2_PLG   1N4148WS                 SOD-323     Diodes                  (-390 980)            R0
+D3_IND   1N4148WS                 SOD-323     Diodes                  (-790 1060)           R0
+D3_MDO   1N4148WS                 SOD-323     Diodes                  (-570 1180)           R0
+D3_R     RED                      LED-1206    SparkFun-LED            (-1090 950)           R180
+MOTORES  MTR 10 PIN               61301021821 Wurth_Connectors_WR-PHD (160 1500)            R270
+R1       1K                       R0805       resistor                (-1230 1490)          R90
+R2       1K                       R0805       resistor                (-950 1480)           R90
+R3       1K                       R0805       resistor                (-650 1480)           R90
+R4       1K                       R0805       resistor                (-420 1480)           R90
+R5       1K                       R0805       resistor                (-390 1180)           R270
+R6_IND   1K                       R0805       resistor                (-780 1160)           R180
+R6_R     220                      R0805       resistor                (-1190 870)           R0
+R7_G     220                      R0805       resistor                (-1190 1300)          R0
+R7_PLG   1K                       R0805       resistor                (-380 890)            R180
+R8_B     220                      R0805       resistor                (-1190 1210)          R0
+R8_MÑQ   1K                       R0805       resistor                (-760 880)            R180
+R9_MDO   1K                       R0805       resistor                (-570 1280)           R180
+R10_ANL  1K                       R0805       resistor                (-20 1440)            R90
+R13_MÑQ  10K                      R0805       resistor                (-110 600)            R0
+R14_MDO  10K                      R0805       resistor                (-110 860)            R0
+R15_IND  10K                      R0805       resistor                (-110 990)            R0
+R16_ANL  10K                      R0805       resistor                (-110 730)            R0
+R17_PLG  10K                      R0805       resistor                (-110 1120)           R0
+SV5      ESP32 2x10 PIN_DERECHO   61302021821 Wurth_Connectors_WR-PHD (-750 1700)           R180
+SV6      ESP32 2x10 PIN_IZQUIERDO 61302021821 Wurth_Connectors_WR-PHD (-750 700)            R180
+T1       600mA/40V                SOT23-3     SparkFun-DiscreteSemi   (-1110 1420)          R270
+T2       600mA/40V                SOT23-3     SparkFun-DiscreteSemi   (-830 1400)           R270
+T3       600mA/40V                SOT23-3     SparkFun-DiscreteSemi   (-540 1400)           R270
+T4       600mA/40V                SOT23-3     SparkFun-DiscreteSemi   (-300 1400)           R270
+T5       600mA/40V                SOT23-3     SparkFun-DiscreteSemi   (-260 1260)           R0
